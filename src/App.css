@@ -1,0 +1,114 @@
+
+
+body {
+    text-align: center;
+    background: url("https://media.wired.com/photos/5dd86c652df8910009f3de3d/master/w_1920,h_1080,c_limit/gear%20-%20top%20art%20-%20note%20taking%20apps.jpg");
+    background-size: cover;
+    font-family: 'Yeon Sung', cursive;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+i {
+   
+    margin-right: 1vw;
+    float: left;
+}
+i:hover{
+    color: red;
+   
+}
+
+li {
+    margin-top: -1vh;
+    float: left;
+    color: rgb(236, 236, 236);
+    display: inline;
+    text-shadow: 1px 5px 10px rgb(0, 0, 0);
+}
+li:hover{
+    font-size: larger;
+}
+
+
+form {
+    background-color: #fff;
+    border-radius: 0px 17px 17px 0px ;
+  
+    padding: 2vh;
+    margin: 24.5vh 22.4vw 10vh 54vw;
+    height: 63.3vh;
+  animation-name: bgcolor;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction:alternate;
+   
+}
+@keyframes bgcolor{
+   0%{background-color: rgb(15, 255, 255);}
+   25%{
+    background-color: rgb(214, 72, 72);
+   }
+   50%{
+    background-color: rgb(15, 48, 48);
+   }
+   75%{
+    background-color:rgb(23, 146, 19);
+   }
+   100%{
+    background-color: rgb(73, 71, 182);
+   }
+    
+}
+input {
+    margin-top: 3.5vh;
+    margin-bottom: 4vh;
+    margin-right: 1vw;
+}
+button{
+padding: 3px 12px;
+   background-color: rgb(219, 219, 186);
+   border: 1px solid rgb(0, 0, 0);
+   /* padding: 2px; */
+   border-radius: 10px;
+}
+button:hover{
+    background-color: rgb(60, 235, 60);
+}
+input{
+    width: 13vw;
+    border-radius: 10px;
+}
+.head{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+    /* background-color: #cae8ca; */
+    border: 2px solid black;
+    border-radius: 0% 0% 100% 100%;
+    box-shadow: 0px 5px 8px rgb(0, 0, 0);
+    
+}
+h4 a{
+    text-decoration: none;
+}
+@media only screen and (max-width:1024px){
+    form{
+        margin: 10px 10px 0px 10px;
+        border-radius: 20px;
+    }
+    body{
+        background-size:10cm;
+    }
+    input{
+        width: 70vw;
+        padding: 10px;
+    }
+    button{
+        padding: 10px;
+    }
+}
