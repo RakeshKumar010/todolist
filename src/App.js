@@ -42,7 +42,7 @@ export default function App() {
         })}
     </ul>
     </form>
-    <h4>© Developed by <a href="https://www.linkedin.com/in/rakesh-kumar-146238220/" target="_blank" rel="noreferrer">Raesh kumar</a>.</h4>
+    <h4>© Developed by <a href="https://www.linkedin.com/in/rakesh-kumar-146238220/" target="_blank" rel="noreferrer">Rakesh kumar</a>.</h4>
     </>
   )
 }
